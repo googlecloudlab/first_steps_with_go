@@ -2,6 +2,7 @@
 
 Go is an open source programming language developed at Google that makes it easy to build simple and reliable software. It strives to be as simple as possible, but not simpler. It compiles to machine code, can be very efficient, and grows with grace.
 
+The best source of information about Go is the official web site at [go.dev](https://go.dev/).
 
 Go is a great choice for software engineering projects
 go/why-go
@@ -24,10 +25,21 @@ Though it uses a similar syntax to C, Go is a standout language that provides to
 https://info.hackerrank.com/rs/487-WAY-049/images/HackerRank-2020-Developer-Skills-Report.pdf
 
 
+## The Origins of Go
+
+The figure below shows the most important infuences of earlier programming languages on the design of Go.
+
+![Origins of Go](resources/OriginsOfGo.png)
+
+
 ## Interesting Facts About Golang:
 - Robert Griesemer, Rob Pike, and Ken Thompson designed Go at Google in 2007.
 - Google wants an alternative to C++ and solves the issues of software engineering, this gives rise to the development of the Go programming language.
+- Go is an open-source project. Source code for its compiler, libraries, and tools is freely available to anyone.
+- Go is sometimes described as a "C-like language", or as "C for the 21st century".
 - Go is supported on almost every  Operating system like DragonFly BSD, FreeBSD, Linux, macOS, NetBSD, OpenBSD, Plan 9, Solaris, and Windows. 
+- Go's standard library, often described as coming with "batteries included", provides clean building blocks and APIs for I/O, text processing, graphics, cryptography, networking, and distributed applications, with support for many standard file formats and protocols.
+- The [Go Playground](https://go.dev/play/) provides the ability to run Go programs. It can be embedded within other pages or documentation pages.
 - Go provides 2 features that are capable of replacing Class inheritance. The first is embedding and the other is interfaces.
 - Go has garbage collection which automatically performs memory management and permits deferred execution of functions.
 - In Go language, we don’t need to put a comma (, ) at the end of statements like Python.
