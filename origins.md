@@ -5,4 +5,4 @@ The figure below shows the most important infuences of earlier programming langu
 ![Origins of Go](resources/OriginsOfGo.png)
 
 
-[Back](README.md)
+[Back](README.md){: .btn}

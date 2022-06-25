@@ -12,5 +12,5 @@ https://info.hackerrank.com/rs/487-WAY-049/images/HackerRank-2020-Developer-Skil
 
 
 
-[Back](README.md)
+[Back](README.md){: .btn}
 
