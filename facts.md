@@ -22,4 +22,4 @@
 - Go does not allow flexibility on how the code is laid out and enforces a standard format.
 
 
-[Back](README.md){: .btn}
+[Back](README.md)

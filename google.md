@@ -10,4 +10,4 @@
 - Go is generally very readable and understandable. The language’s error handling, receivers, and interfaces are all easy to understand due to the idioms in the language.
 
 
-[Back](README.md){: .btn}
+[Back](README.md)

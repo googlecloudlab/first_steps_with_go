@@ -9,4 +9,4 @@ A tremendous amount of documentation exists on https://golang.org/doc. We recomm
   
 Go API documentation is housed here: https://golang.org/pkg. You can quickly see what's included in the box here.
 
-[Back](README.md){: .btn}
+[Back](README.md)

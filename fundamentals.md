@@ -16,4 +16,4 @@ $ go install golang.org/x/website/tour@latest
 This will place the tour binary in your GOPATH's bin directory.
 
 
-[Back](README.md){: .btn}
+[Back](README.md)
