@@ -57,6 +57,7 @@ Go developers have adopted `make` to ensure repeatable, automated builds that ca
 
 Here's a sample Makefile:
 
+```
 .DEFAULT_GOAL := build
 
 fmt:
@@ -74,3 +75,6 @@ vet: fmt
 build: vet
 	go build *.go
 .PHONY:vet
+```
+
+[Back](README.md)

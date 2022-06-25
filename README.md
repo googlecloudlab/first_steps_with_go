@@ -6,6 +6,7 @@ Welcome to First Steps with Go. In this workshop, you will learn the basics of t
 
 1. [Introduction](intro.md)
    - [Origins of Go](origins.md)
+   - [Main Usage of Go](usage.md)
    - [Interesting Facts about Go](facts.md)
    - [Comparison to other languages](comparison.md)
    - [How Google uses Go](google.md)
