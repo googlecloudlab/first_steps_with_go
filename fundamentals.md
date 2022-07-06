@@ -104,6 +104,9 @@ Congratulations! You have just completed your first Go program!
 
 The best way to learn Go's fundamentals is to first complete the official [Go Tour](https://tour.golang.org/). You will use an interactive web-based editor to accomplish basic tasks with the language.
 
+Next, you can check out some of the Tutorials that are provided on the Go website [Tutorials](https://go.dev/doc/tutorial)
+
+
 You may also wish to pick up [The Go Programming Language](https://www.gopl.io/) by Alan Donovan and Brian Kernighan.
 
 To get started writing web applications, watch [A simple programming environment](https://vimeo.com/53221558) ([slides](https://go.dev/talks/2012/simple.slide)) and read the [Writing Web Applications tutorial](https://go.dev/doc/articles/wiki/).
