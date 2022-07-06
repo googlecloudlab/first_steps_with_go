@@ -59,6 +59,37 @@ What this language is used for:
 - Go programs compile to a single binary and do not require any additional software to be installed in order to run them. Install the Go development tools only on computers that build Go programs.
 - Go's method for publishing code is a bit different than most other languages. Go developers don't rely on a centrally hosted service, like Maven Central for Java or the NPM registry for JavaScript. Instead, they share projects via their source code repositories.
 - Go does not allow flexibility on how the code is laid out and enforces a standard format.
+- Go is generally very readable and understandable. The language’s error handling, receivers, and interfaces are all easy to understand due to the idioms in the language.
+
+
+## Why choose Go
+
+Go is a great choice for software engineering projects.
+
+### Simplicity
+Go is probably the simplest to use among the canonical languages. 90% of newcomers report being productive with the language within a few hours to ten days; many can make productive contributions to a codebase on day 1.
+
+Existing Go code is easily readable, concise and not overly abstract, which helps with maintenance and audits for things like privacy and security.
+
+### Runtime Performance
+The high developer productivity does not come at the cost of runtime performance. Instead, Go is compiled to fully native machine code, and its sophisticated concurrency primitives make Go code scale to many cores.
+
+### High Performance Garbage Collector
+
+Go is a garbage collected language. However, running a Go service in production almost never requires tuning GC parameters. Instead, given that Go is a value-oriented language, code can be optimized to create less garbage in the first place.
+
+GC pause times have gone through several large rounds of improvement, as detailed in the [ISMM 2018 keynote](https://go.dev/blog/ismmkeynote) by Rick Hudson.
+
+| Language | GC Stop Time |
+| --- | --- |
+| Java | 5-50 ms (minor); 50 ms to 20s (major) |
+| Go in 2014 | 10 ms every 50 ms |
+| Go today | 2 stop-the-world pauses below 500µs (typically under 100 µs) per GC run |
+
+
+### Frictionless Readability
+Code is read far more often than it is written.  Readability in Go arises as a natural consequence of working in the language. 
+
 
 ## Comparison to other languages
 
@@ -75,10 +106,17 @@ This article compares Rust and Go and makes the case that they are complimentary
 
 - In 2015, to keep up with Google’s scale, Google’s Core Data Solutions team needed to rewrite the indexing stack from a single monolithic binary written in C++ to multiple components in a microservices architecture. The team decided to rewrite many indexing services in Go, which they now use to power the majority of their architecture. As a result, Google’s web indexing was re-architected within a year. More impressively, most developers on the team were rewriting in Go while also learning it.
 - Behind the scenes, Chrome has an extensive fleet of backends. Among these is the Chrome Optimization Guide service. This service forms an important basis for Chrome’s user experience strategy, operating in the critical path for users, and is implemented in Go. Millions of users rely on this service to make their Chrome experience better. When the Chrome engineering team started building the service, only a few members had comfort with Go.
-- Go is the language of choice for Google SRE teams. The majority of Google production is managed and maintained by our systems written in Go. Go’s simplicity means that the code is easy to follow, whether it is to spot bugs during review or when trying to determine exactly what happened during a service disruption.
+- Go is the language of choice for Google SRE teams. The majority of Google production is managed and maintained by our systems written in Go. Go’s simplicity means that the code is easy to follow, whether it is to spot bugs during review or when trying to determine exactly what happened during a service disruption. When you use Go, you use a platform SRE is fluent in.
 - Go is used by the Google Cloud Platform team for solutions such as Anthos, GKE, and Istio
 - The Firebase Hosting team has replaced 100% of backend Node.js code with Go. Hundreds of thousands of customers host their websites with Firebase Hosting, which means Go code is used to serve billions of requests per day. 
-- Go is generally very readable and understandable. The language’s error handling, receivers, and interfaces are all easy to understand due to the idioms in the language.
+- Go is used by a messaging backend that is used in Google products such as Duo, Chrome Remote Desktop, and Stadia.
+- 
+
+## How Microsoft Uses Go
+Microsoft is using Go internally to power pieces of the Azure infrastructure, like AKS [Azure Container Service]. For customers, Go is definitely a first-class citizen on Azure – you can use Go to make calls to the Azure SDK and provision services and infrastructure. You can also use Go to call into those services and consume things like Cosmos DB, other databases, message queues, any of the services that Microsoft provides. The Azure team has been investing in a great experience for Go developers.
+[What is Microsoft doing with Go?](https://cloudblogs.microsoft.com/opensource/2018/02/21/go-lang-brian-ketelsen-explains-fast-growth/)
+[This is what Microsoft uses Go (Golang) for](https://preettheman.medium.com/this-is-what-microsoft-uses-go-golang-for-60ca48587be1#:~:text=Go%20(or%20Golang)%20is%20a,who%20actually%20developed%20this%20language.)
+
 
 ## Go and Modern Enterprise Applications
 
