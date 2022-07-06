@@ -103,9 +103,7 @@ Congratulations! You have just completed your first Go program!
 ## Next Steps
 
 The best way to learn Go's fundamentals is to first complete the official [Go Tour](https://tour.golang.org/). You will use an interactive web-based editor to accomplish basic tasks with the language. The first section covers basic syntax and data structures; the second discusses methods and interfaces; and the third introduces Go's concurrency primitives. Each section concludes with a few exercises so you can practice what you've learned. You can [take the tour online](https://go.dev/tour/) or install it locally with:
-$ go install golang.org/x/website/tour@latest
-
-This will place the tour binary in your GOPATH's bin directory.
+`$ go install golang.org/x/website/tour@latest` This will place the tour binary in your GOPATH's bin directory.
 
 Next, you can check out some of the [Tutorials](https://go.dev/doc/tutorial) that are provided on the Go website. 
 
