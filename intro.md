@@ -4,13 +4,29 @@
 
 Go is an open source programming language developed at Google that makes it easy to build simple and reliable software. It strives to be as simple as possible, but not simpler. It compiles to machine code, can be very efficient, and grows with grace.
 
-Developed at Google in 2007, Go is a top-tier programming language. Today, Go is a Top 10 Language with 2+ Million Developers. What makes Go really shine is its efficiency; it is capable of executing several processes concurrently. And as far as programming languages go, it has an extensive “vocabulary,” meaning it can display more information than other languages. 
+Go was designed to:
+- Use static typing and have the run-time efficiency of C
+- Have the readability and usability of languages like Python and JavaScript
+- Exhibit great performance in networking and multiprocessing
+
+Developed at Google in 2007 and released in 2009, Go is a top-tier programming language specifically designed to build fast, scalable applications. Today, Go is a Top 10 Language with 2+ Million Developers. What makes Go really shine is its efficiency; it is capable of executing several processes concurrently. And as far as programming languages go, it has an extensive “vocabulary,” meaning it can display more information than other languages. 
+
+Go comes from a pretty impressive team of people: Ken Thompson (designer and creator of Unix and C), Rob Pike (cocreator of UTF-8 and Unix format), and Robert Griesemer (a Google engineer). If you are technically inclined, you may want to check out an article called "Go at Google: [Language Design in the Service of Software Engineering"](https://talks.golang.org/2012/splash.article), which discusses how Go was initially conceived to solve problems at Google.
 
 The best source of information about Go is the official web site at [go.dev](https://go.dev/).
 
 Though it uses a similar syntax to C, Go is a standout language that provides top-notch memory safety and management features. Additionally, the language’s structural typing capabilities allow for a great deal of functionality and dynamism. Moreover, Go is not only high up on programmers’ most-loved and most-wanted lists — it also correlates to a 33% salary bump (PDF, 2.4 MB).
 
 https://info.hackerrank.com/rs/487-WAY-049/images/HackerRank-2020-Developer-Skills-Report.pdf
+
+
+## What Go can do for you
+
+You can learn many programming languages toay, but Go stands out for a few reasons:
+
+- **Go is easy to learn**: Go's syntax makes it a readable language. It skips many of the complexities in other languages.
+- **Go has fewer features than other programming languages**: You don't have to worry about the best way to solve a problem - there is only one right way in Go. This makes your codebase easy to maintain.'
+- **Go excels in concurrent programming**: Go's support for Goroutines makes it extremely easy to run multiple functions concurrently.
 
 
 ## The Origins of Go
@@ -22,19 +38,20 @@ The figure below shows the most important infuences of earlier programming langu
 
 ## Main Usage of Go
 
-Go is a great choice for software engineering projects
-go/why-go
-https://go.dev/solutions/#case-studies
+Go is a great choice for software engineering projects. Here are some examples where Go can be used:
 
-What this language is used for:
-- API/RPC services (returning non-HTML)
-- Web Services (returning HTML)
+- **Cloud services**: You can build scalable apps using Go on any Cloud Platform
+- **Networking apps**: With Go's support for Goroutines, you can use Go to build distributed servers and application programming interfaces (APIs).
+- **Web Services**: You can use Go to build scalable and efficient web services.
+- **Command-line apps**: Because Go runs on multiple platforms, you can compile the same codebase and target different platforms.
+
+Here are some other uses where Go is great fit:
 - Automation/Scripts
-- Runnable/interactive program (CLI)
 - Libraries or frameworks
-- System/network programming 
 - Audio/video editing 
 - Big Data
+
+https://go.dev/solutions/#case-studies
 
 
 ## Interesting Facts About Go
@@ -60,6 +77,9 @@ What this language is used for:
 - Go's method for publishing code is a bit different than most other languages. Go developers don't rely on a centrally hosted service, like Maven Central for Java or the NPM registry for JavaScript. Instead, they share projects via their source code repositories.
 - Go does not allow flexibility on how the code is laid out and enforces a standard format.
 - Go is generally very readable and understandable. The language’s error handling, receivers, and interfaces are all easy to understand due to the idioms in the language.
+- Go doesn't support the ternary operator. The reason the ternary operator ?: is absent from Go is that the language's designers had seen the operation used too often to create impenetrably complex expressions. The if/else form, although longer, is unquestionably clearer. A language needs only one conditional control flow construct.
+- Although programming languages like C and Java have multiple types of looping - while, do...while, and for - Go has only one looping construct: the for loop. The for loop is powerful enough to meet all programming needs.
+- Go doesn't have the concept of pe or post operators. In Go you can use the ++ or -- operators to increment or decrement a variable's value by 1, respectively.
 
 
 ## Why choose Go
@@ -92,6 +112,9 @@ Code is read far more often than it is written.  Readability in Go arises as a n
 
 
 ## Comparison to other languages
+
+### Syntax
+In terms of syntax, Go is closer to C and Java
 
 ### Comparison of Rust and Go
 
